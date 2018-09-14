@@ -1,8 +1,8 @@
-FROM debian:jessie
+FROM debian:stretch
 
 MAINTAINER Christian Luginbühl <dinkel@pimprecords.com>
 
-ENV OPENLDAP_VERSION 2.4.40
+ENV OPENLDAP_VERSION 2.4.44
 ENV DEBUG_LEVEL 32768
 
 RUN apt-get update && \
