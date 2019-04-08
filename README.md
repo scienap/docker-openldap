@@ -55,7 +55,7 @@ available: `collective`, `corba`, `duaconf`, `dyngroup`, `java`, `misc`, `openld
 `pmi` and `ppolicy`.
 * `SLAPD_ADDITIONAL_MODULES` - comma-separated list of modules to load. It will try
 to run `.ldif` files with a corresponsing name from the `module` directory.
-Currently only `memberof` and `ppolicy` are avaliable.
+Currently `memberof`, `ppolicy` and `sssvlv` are avaliable.
 
 * `SLAPD_FORCE_RECONFIGURE` - (defaults to false)  Used if one needs to reconfigure
 the `slapd` service after the image has been initialized.  Set this value to `true`
