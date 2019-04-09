@@ -1,0 +1,12 @@
+dn: cn=module, cn=config
+cn: module
+objectClass: olcModuleList
+objectClass: top
+olcModulePath: /usr/lib/ldap
+olcModuleLoad: sssvlv.la
+
+dn: olcOverlay=sssvlv,olcDatabase={1}hdb,cn=config
+objectClass: olcSssVlvConfig
+olcOverlay: sssvlv
+olcSssVlvMax: 10
+olcSssVlvMaxKeys: 5
